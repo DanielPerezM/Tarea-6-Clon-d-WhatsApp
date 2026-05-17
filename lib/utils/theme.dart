@@ -9,22 +9,17 @@ class ThemeApp {
       colorScheme: const ColorScheme(
         brightness: Brightness.light,
 
-        primary: Color.fromARGB(255, 131, 31, 156),
-        onPrimary: Colors.black,
+        primary: Color.fromRGBO(7, 41, 28, .96),
+        onPrimary: Color.fromARGB(244, 216, 216, 216),
 
-        secondary: Color.fromARGB(255, 255, 248, 200),
+        secondary: Color.fromARGB(255, 243, 220, 73), //Color secundario
         onSecondary: Colors.black,
 
         error: Colors.red,
         onError: Colors.white,
 
         surface: Color.fromARGB(255, 248, 248, 248),
-        onSurface: Color.fromARGB(
-          255,
-          0,
-          0,
-          0,
-        ), //Color de letras en las pantallas
+        onSurface: Color.fromARGB(255, 0, 0, 0),
       ),
 
       scaffoldBackgroundColor: Color.fromARGB(255, 248, 248, 248),
